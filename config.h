@@ -199,7 +199,8 @@ static const char *colorname[] = {
 
 	[255] = 0,
 
-	"#282c34",
+	/*"#282c34",*/
+	"#0a1016",
 	"#bbc2cf",
 	"#d7d7d7",
 };
@@ -210,10 +211,10 @@ static const char *colorname[] = {
  */
 
 /* Defaults for my custom theme */
-/*unsigned int defaultfg = 6;
-unsigned int defaultbg = 7;
-static unsigned int defaultcs = 256;
-static unsigned int defaultrcs = 257;*/
+unsigned int defaultfg = 257;
+unsigned int defaultbg = 256;
+static unsigned int defaultcs = 257;
+static unsigned int defaultrcs = 257;
 
 /* Nord Theme */
 /*unsigned int defaultfg = 257;
@@ -228,10 +229,10 @@ static unsigned int defaultcs = 257;
 static unsigned int defaultrcs = 257;*/
 
 /* Doom Emacs Theme */
-unsigned int defaultfg = 257;
+/*unsigned int defaultfg = 257;
 unsigned int defaultbg = 256;
 static unsigned int defaultcs = 15;
-static unsigned int defaultrcs = 15;
+static unsigned int defaultrcs = 15;*/
 
 /*
  * Default shape of cursor
