@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mononoki Nerd Font Mono:bold:size=12:antialias=true:autohint=true";
+static char *font = "Mononoki Nerd Font:bold:size=12:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
